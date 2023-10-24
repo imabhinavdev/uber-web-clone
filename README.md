@@ -4,9 +4,9 @@ This repository contains a cloned version of the Uber website. This project was 
 
 ## Demo
 
-You can view the live demo of the Uber website clone at [Demo Link](https://your-demo-link.com).
+You can view the live demo of the Uber website clone at [Demo Link](https://madabhi.github.io/uber-web-clone/).
 
-
+#### ```This website is not responsive !```
 
 ## Getting Started
 
