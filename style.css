@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  font-family: poppins;
+}
+
+.navContainerWrap {
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  align-items: center;
+}
+.nav-left > p,
+.nav-right > p,
+.text-icon {
+  margin: 0 10px;
+}
+.logo {
+  font-size: 22px;
+}
+.menu-list {
+  font-size: 14px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 80px;
+}
+.text-icon > span {
+  font-size: 16px;
+  margin: 0 3px;
+}
+.signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  width: 80px;
+  border-radius: 30px;
+  height: 35px;
+  font-size: 14px;
+}
+.text-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  padding: 50px 100px;
+}
+
+.main-left > h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.main-right > img {
+  height: 600px;
+}
+.main-btns {
+  margin-top: 20px;
+  display: flex;
+}
+.ride-btn {
+  height: 40px;
+  width: 130px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.drive-btn {
+  height: 40px;
+  width: 130px;
+  background-color: #545454;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.started-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+}
+.started-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 120px;
+}
+.started-right > h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.started-left > img {
+  width: 560px;
+}
+
+.started-btns {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.started-btns > button {
+  height: 40px;
+  width: 130px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.started-btns > p {
+  margin-left: 20px;
+  color: #545454;
+  border-bottom: 1px solid #d8d8d8;
+  transition: border-color 0.3s ease;
+}
+
+.started-btns > p:hover {
+  border-bottom: 1px solid #6c6c6c;
+}
+
+.ride-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ride-right > img {
+  width: 560px;
+}
+.ride-left {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.ride-left > h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.ride-left > p {
+  color: #545454;
+}
+.location-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #eeeeee;
+  margin: 5px 0;
+  padding: 0 10px;
+}
+.location-flex {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.location-flex > input {
+  border: none;
+  background-color: #eeeeee;
+}
+.location-flex > input:focus {
+  border: none;
+  outline: none;
+}
+
+.prices-btn {
+  margin-top: 20px;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  font-weight: 500;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+}
+.location-flex > span:nth-child(1) {
+  font-size: 12px;
+  font-weight: 800;
+}
+.loc-dest-line > hr {
+  border: 1px solid #000;
+  z-index: 1;
+  width: 40px;
+  transform: rotate(90deg) translateY(5px);
+}
+
+.uber-ride-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 120px;
+}
+.uber-ride-wrap > h1 {
+  font-weight: 600;
+}
+.auto-moto-wrap {
+  margin: 50px 0 0 40px;
+}
+.veh-container {
+  display: flex;
+  margin: 0 20px;
+  width: 50%;
+}
+.ride-details > h3 {
+  margin-left: 20px;
+}
+.vehicle-img {
+  height: 150px;
+}
+.det-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.auto-moto-wrap {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  height:70vh;
+  background-color: #000;
+  color: #fff;
+  justify-content: space-evenly;
+}
+.footer-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.copyright{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
